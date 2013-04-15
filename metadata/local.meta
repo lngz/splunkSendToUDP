@@ -1,0 +1,21 @@
+[app/ui]
+version = 5.0.1
+modtime = 1359008326.266751000
+
+[app/launcher]
+version = 5.0.1
+modtime = 1359008326.269230000
+
+[commands/sendsyslog]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 5.0.1
+modtime = 1359097731.789252000
+
+[commands/remain]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 5.0.1
+modtime = 1359097743.138313000
